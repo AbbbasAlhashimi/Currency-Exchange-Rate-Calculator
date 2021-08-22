@@ -1,2 +1,4 @@
 # Currency-Exchange-Rate-Calculator
-Using Fetch API to make HTTP Request to a 3rd party API and pass them into the DOM
+Using Fetch API to make HTTP Request to a 3rd party API and pass them into the DOM <br>
+The code Interface consist of a container DIV with two currency Selection drop-down lists, two currency labels, a header text, a swap button, and an exchange rate label text.<br> The Script begins with initializing input values and labels in Synch with the DOM elements. When the page is loaded, the primary function <b>Calculate</b> is triggered to return a default currency equivalent of 1 USD in Turkish Lira.<br>. The script has 4 event listenrs corresponding to the <b>Swap</b> button. When the <b>Swap</b> button is clicked, the input values is swapped to save the time for the user to re-select currencies manually. <br> The output values are set to decimal values. <br> The API used for the HTTP request is [https://api.exchangerate-api.com]. 
+<p>The Code Implementation can be found <a href="https://codepen.io/abbbas_alhashimi/pen/BaZBYqE">here.</a></p>
